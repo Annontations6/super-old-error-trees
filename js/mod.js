@@ -1,5 +1,5 @@
 let modInfo = {
-	name: "The ??? Tree",
+	name: "To Infinity!",
 	id: "mymod",
 	author: "nobody",
 	pointsName: "points",
@@ -42,7 +42,7 @@ function getPointGen() {
 	if(!canGenPoints())
 		return new Decimal(0)
 
-	let gain = new Decimal(1)
+	let gain = new Decimal("10^^9999")
 	return gain
 }
 
